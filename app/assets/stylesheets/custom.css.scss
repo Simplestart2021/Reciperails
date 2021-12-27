@@ -1,6 +1,6 @@
-$navbar-default-bg: #312312;
-$light-orange: #ff8c00;
-$navbar-default-color: $light-orange;
+$navbar-default-bg: #00FFFF;
+$light-orange: #E0FFFF;
+$navbar-default-color: #2F4F4F;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -11,9 +11,9 @@ $navbar-default-color: $light-orange;
   float: left;
   margin-right: 10px;
   font-size: 2em;
-  color: #fff;
+  color: #2F4F4F;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   padding-top: 9px;
   font-weight: bold;
 }
@@ -25,6 +25,8 @@ $navbar-default-color: $light-orange;
 
 body {
   padding-top: 80px;
+  border-top-width: 150px;
+  border-top-style: solid;
 }
 
 .nav_item {
@@ -39,6 +41,7 @@ body {
 
 h1, h2, h3, h4 {
   line-height: 1;
+
 }
 
 h1{
@@ -65,4 +68,12 @@ h2 {
   margin-top: 25px;
   border-top: 1px solid #eaeaea;
   color: #777;
+}
+
+// .chef_info (
+//   margin-top: 20px;
+// )
+
+.gravatar {
+  border-radius: 10px;
 }
