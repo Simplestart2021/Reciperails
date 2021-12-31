@@ -8,15 +8,23 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <style>
+    body {
+      font-family: "Sofia", sans-serif;
+    }
+  </style>
   </head>
-
-  <%= render 'layouts/navigation' %>
   <body>
+
+    <%= render 'layouts/navigation' %>
+
     <div class="container">
+    <%= render 'layouts/messages' %>  
     <%= yield %>
 
     <%= render 'layouts/footer' %>
-    
+
     </div>
   </body>
 </html>

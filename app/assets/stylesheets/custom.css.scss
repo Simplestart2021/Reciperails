@@ -6,10 +6,10 @@ $navbar-default-color: #2F4F4F;
 @import "bootstrap";
 
 #logo {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   float: left;
-  margin-right: 10px;
+  margin-left: 5px;
   font-size: 2em;
   color: #2F4F4F;
   text-transform: uppercase;
@@ -27,12 +27,15 @@ body {
   padding-top: 80px;
   border-top-width: 150px;
   border-top-style: solid;
+  background-color: #48D1CC;
 }
 
 .nav_item {
   margin-left: 25px;
   float: left;
   margin-top: 20px;
+  border-top-width: 30px;
+  color: #4B0082;
 }
 
 .center {
@@ -41,7 +44,7 @@ body {
 
 h1, h2, h3, h4 {
   line-height: 1;
-
+  font-size: 3em;
 }
 
 h1{
@@ -62,12 +65,13 @@ h2 {
 .left {
   text-align: left;
   letter-spacing: .5px;
+  color: #000000;
 }
 
 .footer {
   margin-top: 25px;
   border-top: 1px solid #eaeaea;
-  color: #777;
+  color: #191970;
 }
 
 // .chef_info (
@@ -76,4 +80,19 @@ h2 {
 
 .gravatar {
   border-radius: 10px;
+}
+
+.well {
+  background-color: #EDEDED;
+}
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input {
+  height: auto !important;
 }
