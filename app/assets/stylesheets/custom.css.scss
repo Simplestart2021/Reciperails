@@ -1,5 +1,5 @@
-$navbar-default-bg: #00FFFF;
-$light-orange: #E0FFFF;
+$navbar-default-bg: #FFDAB9;
+$light-orange: #FF4500;
 $navbar-default-color: #2F4F4F;
 
 @import "bootstrap-sprockets";
@@ -27,7 +27,7 @@ body {
   padding-top: 80px;
   border-top-width: 150px;
   border-top-style: solid;
-  background-color: #48D1CC;
+  background-color: #FFDEAD;
 }
 
 .nav_item {
@@ -74,9 +74,9 @@ h2 {
   color: #191970;
 }
 
-// .chef_info (
-//   margin-top: 20px;
-// )
+.chef_info {
+  margin-top: 20px;
+}
 
 .gravatar {
   border-radius: 10px;
