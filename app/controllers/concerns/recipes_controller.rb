@@ -13,8 +13,8 @@ class RecipesController < ApplicationController
   end
 
   def create
-    @recipe = Recipe.new(recipe_params)
-    @recipe.chef = Chef.find(2)
+     @recipe = Recipe.new(recipe_params)
+     @recipe.chef = Chef.find(2)
 
     if @recipe.save
       flash[:success] = "Your recipe was created successfully!"
@@ -42,7 +42,7 @@ class RecipesController < ApplicationController
   private
 
     def recipe_params
-      params.require(:recipe).permit(:name, :summary, :description)
+      params.require(:recipe).permit(:name, :summary, :description, :picture)
     end
 
 end
